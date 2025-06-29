@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <!-- Link do Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      section {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+      .project-card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.2s;
+      }
+      .project-card:hover {
+        transform: scale(1.02);
+      }
+      .project-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+      .project-card .info {
+        padding: 1rem;
+      }
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background: #333;
+        color: #fff;
+        margin-top: 2rem;
+      }
+      .social-icons a {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        transition: color 0.3s;
+      }
+      .social-icons a:hover {
+        color: #1da1f2; /* azul Twitter como destaque */
+      }
+      .project-card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      .project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Gabriel Viana - Desenvolvedor Front-end</h1>
+      <p>HTML | CSS | JavaScript</p>
+    </header>
+
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>
+        Sou Gabriel, programador de 19 anos com paixão por transformar ideias em
+        projetos digitais. Desenvolvo sites modernos, responsivos e focados na
+        experiência do usuário. Sempre em busca de novos desafios para evoluir
+        minhas habilidades e entregar resultados que impactam.
+      </p>
+      <a
+        href="curriculo-gabriel-viana.pdf"
+        download
+        style="
+          display: inline-block;
+          padding: 0.7rem 1.5rem;
+          background: #333;
+          color: #fff;
+          border-radius: 5px;
+          text-decoration: none;
+        "
+      >
+        📄 Baixar Currículo
+      </a>
+    </section>
+    <section>
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>🐱 Gosto de gatos e café</li>
+        <li>🎮 Jogo nas horas vagas</li>
+        <li>🚀 Sempre estudando algo novo</li>
+      </ul>
+    </section>
+
+    <div class="projects">
+    <div class="project-card">
+       
+        <img src="calculadoraphp.png" alt="Calculadora">
+        <div class="info">
+            <h3>Calculadora PHP</h3>
+            <p>Calculadora online simples em PHP, com operações básicas e tratamento de erros.</p>
+            <a href="https://github.com/gabriel-viana20/Calculadora-simples-php" target="_blank" style="color:#333; text-decoration:underline;">Ver Projeto</a>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="mercado.webp" alt="Mercado Express">
+        <div class="info">
+            <h3>Mercado Express</h3>
+            <p>Site de vendas com cadastro de produtos, área admin protegida e integração com banco de dados.</p>
+            <a href="https://github.com/gabriel-viana20/Mercado-Express" target="_blank" style="color:#333; text-decoration:underline;">Ver Projeto</a>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="rpg.png" alt="RPG Solo Leveling">
+        <div class="info">
+            <h3>RPG Portão Sombrio</h3>
+            <p>Jogo narrativo em Java inspirado em Solo Leveling, com escolhas, classes e finais alternativos.</p>
+            <a href="link-para-seu-jogo-rpg" target="_blank" style="color:#333; text-decoration:underline;">Ver Projeto</a>
+        </div>
+    </div>
+</div>
+
+
+    <section>
+      <h2>Minhas Habilidades</h2>
+      <ul style="list-style: none; padding: 0">
+        <li
+          style="
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+          "
+        >
+          HTML5 & CSS3
+        </li>
+        <li
+          style="
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+          "
+        >
+          JavaScript (ES6+)
+        </li>
+        <li
+          style="
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+          "
+        >
+          Responsividade (Flexbox & Grid)
+        </li>
+        <li
+          style="
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+          "
+        >
+          Bootstrap & Tailwind
+        </li>
+        <li
+          style="
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+          "
+        >
+          Git & GitHub
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Fale Comigo</h2>
+      <form
+        action="https://formspree.io/f/mvgrdnbz"
+        method="POST"
+        style="max-width: 500px; margin: auto"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Seu nome"
+          required
+          style="
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+          "
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Seu e-mail"
+          required
+          style="
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+          "
+        />
+        <textarea
+          name="message"
+          placeholder="Sua mensagem"
+          required
+          style="
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+          "
+        ></textarea>
+        <button
+          type="submit"
+          style="
+            background: #333;
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          "
+        >
+          Enviar Mensagem
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Entre em contato: <strong>fenixbr100k@gmail.com</strong></p>
+      <div class="social-icons" style="margin-top: 1rem">
+        <a
+          href="https://www.instagram.com/gabriel_crt.vn?igsh=MWNwd3pwODV5ZWR3NA=="
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/gabriel-viana-137650314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/gabriel-viana20" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <p style="margin-top: 1rem">
+        © 2025 Gabriel Viana. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
